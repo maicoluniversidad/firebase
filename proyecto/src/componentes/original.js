@@ -9,7 +9,7 @@ icono: "https://cdn-icons-png.flaticon.com/512/2909/2909765.png",
 integrantes: ["javier", "maria", "matt"],
 actividad: "Capacitor Firebase",
 url:
-"https://drive.google.com/file/d/1Kl97mmRESu2GWPztzK2XdMvNR68vMQ00/view?usp=drive_link"
+"https://db.ygoprodeck.com/api/v7/cardinfo.php"
 };
 // Contenedor principal
 const contenedor = document.getElementById("app");
@@ -43,7 +43,7 @@ form.appendChild(input);
 });
 // Campo especial: integrantes
 const pIntegrantes = document.createElement("p");
-pIntegrantes.textContent = "Integrantes (separados por coma):";
+pIntegrantes.textContent = "Integrantes (Maicol Lancheros):";
 const integrantesInput = document.createElement("input");
 integrantesInput.value = app.integrantes.join(", ");
 integrantesInput.placeholder = "Integrantes (separados por coma):";

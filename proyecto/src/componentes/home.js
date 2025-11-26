@@ -4,7 +4,7 @@ appContainer.innerHTML = "<h2>Cargando proyectos...</h2>";
 try {
 // Cargar los datos del JSON
 const response = await
-fetch("https://diaztibata.github.io/sanagustin/json/miercoles-avanzada.json");
+fetch("https://db.ygoprodeck.com/api/v7/cardinfo.php");
 const proyectos = await response.json();
 // Limpiar contenedor
 appContainer.innerHTML = "";

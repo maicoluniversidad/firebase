@@ -5,7 +5,7 @@ import mostrarOriginal from './componentes/original.js';
 import mostrarHome from './componentes/home.js';
 import mostrarLogout from './componentes/logout.js';
 import "./style.css";
-
+mostrarHome()
 
 import { auth } from './firebaseConfig.js';
 import { onAuthStateChanged } from 'firebase/auth';
